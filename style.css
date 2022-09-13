@@ -150,24 +150,25 @@ body{
     margin: 0 auto;
     margin-left: 25%;
     font-size: 15px;
-}
-
-
-.works-content .works-block .test-email {
-    margin-bottom: 2px;
-    margin-right: 23.7%;
-}
-
-.works-content .works-block .test-password {
     margin-bottom: 30px;
-    margin-top: 0;
-    margin-right: 32.6%;
 }
-.works-content .works-block .test-password-01 {
-    margin-bottom: 30px;
-    margin-top: 0;
-    margin-right: 37.8%;
-}
+
+
+/* .works-content .works-block .test-email { */
+    /* margin-bottom: 2px; */
+    /* margin-right: 23.7%; */
+/* } */
+/*  */
+/* .works-content .works-block .test-password { */
+    /* margin-bottom: 30px; */
+    /* margin-top: 0; */
+    /* margin-right: 32.6%; */
+/* } */
+/* .works-content .works-block .test-password-01 { */
+    /* margin-bottom: 30px; */
+    /* margin-top: 0; */
+    /* margin-right: 37.8%; */
+/* } */
 
 /** contact  */
 .contact-content p {
