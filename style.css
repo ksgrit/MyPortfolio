@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+
+/* 画面のスタイルシート */
+body{
+    font-family: "Noto Sans JP",sans-serif;
+    margin: 0;
+    width: 100%;
+}
+/* ヘッダーのスタイルシート */
+.menu {
+    background-color:  rgb(126, 137, 137);
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /* padding: 10px 40px 10px 40px ; */
+}
+
+.menu a {
+    margin-right: 25px;
+    color:whitesmoke;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+
+.menu ul{
+    display: flex;
+    margin: 0%;
+    padding-bottom: 0.8em;
+    padding-top: 0.8em;
+    list-style: none;
+    padding-left: 0%;
+    
+}
+
+.header-block {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /* padding: 0px 40px 40px 40px; */
+    border-bottom: 1px solid #ffff;
+}
+
+.block-01 {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /* padding: 40px 40px; */
+    border-bottom: 1px solid #ffff;
+}
+
+
+.profile {
+    background-color: rgb(126, 137, 137);
+    display: flex;
+}
+.firstview img {
+    margin-bottom: 50px;
+    height: 40em;
+    margin-right: 20px;
+}
+
+.firstview-txt h1 {
+    margin-left: 70px;
+    margin-top: 0;
+    margin-bottom: 70px;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.firstview-txt .en {
+    margin-left: 70px;
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.firstview-txt .name {
+    margin-left: 70px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 40px;
+}
+
+
+/** About  */
+.title-01 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+
+}
+
+.about-txt {
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 25.8%;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+}
+
+.about-content span {
+    text-align: left;
+    margin-right: 30.6%;
+}
+
+.about-content .skill {
+    text-align: left;
+    margin-left: 25.8%;
+}
+/** works  */
+.works-content {
+    background-color:  rgb(225, 232, 232);
+}
+
+.works-content h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+
+.works-content .works-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.works-content .works-block img {
+    width: 50%;
+    height: 214px;
+}
+
+.works-content .works-block .explain {
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 25%;
+    font-size: 15px;
+}
+
+
+.works-content .works-block .test-email {
+    margin-bottom: 2px;
+    margin-right: 23.7%;
+}
+
+.works-content .works-block .test-password {
+    margin-bottom: 30px;
+    margin-top: 0;
+    margin-right: 32.6%;
+}
+.works-content .works-block .test-password-01 {
+    margin-bottom: 30px;
+    margin-top: 0;
+    margin-right: 37.8%;
+}
+
+/** contact  */
+.contact-content p {
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+/** footer */
+#footer {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /* padding: 20px 40px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(225, 232, 232);
+}
